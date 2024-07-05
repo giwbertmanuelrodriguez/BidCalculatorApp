@@ -30,11 +30,9 @@ To connect the frontend application with the backend and bypass CORS issues duri
 Open the Start Menu:
 
 Click on the Start button or press the Windows key on your keyboard.
-Open the Run Dialog:
-
-Press Windows + R to open the Run dialog.
-Execute the Command:
 
 Type the following command in the Run dialog and press Enter:
-chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security.
+
 This will open a new instance of Google Chrome with web security disabled, allowing cross-origin requests.
