@@ -24,7 +24,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 Connecting Frontend with Backend
-Windows Instructions
+
 To connect the frontend application with the backend and bypass CORS issues during development, follow these steps:
 
 Open the Start Menu:
