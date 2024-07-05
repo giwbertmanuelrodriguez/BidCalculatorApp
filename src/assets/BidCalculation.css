@@ -1,0 +1,47 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+
+  .bid-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input, select {
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+  .submit-button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  .result {
+    margin-top: 10px;
+  }
+
+  .result h2 {
+    margin-bottom: 10px;
+  }
+
+  .result p {
+    margin: 5px 0;
+  }
