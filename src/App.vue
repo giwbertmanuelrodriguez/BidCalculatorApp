@@ -1,17 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <BidCalculator />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BidCalculator from './components/BidCalculator.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BidCalculator
   }
-}
+};
 </script>
 
 <style>
